@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    font-family: 'Montagu Slab', serif;
+font-family: 'Road Rage', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*start- header*/      
+.header{
+    background-image: url(https://i1.wp.com/baytdz.com/wp-content/uploads/2020/03/d8a7d8acd985d984-20-d8b5d988d8b1d8a9-d985d986d8b8d8b1-d8b7d8a8d98ad8b9d98a-d8aed984d8a7d8a8d8a9-d8add988d984-d8a7d984d8b9_5e6c266e7e590.jpeg?w=960&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.host{
+    display: inline-flex;
+}
+.list{
+list-style: none;
+display: inline-block;
+margin-top: 20px;
+margin-left: 100px;
+}
+.list li{
+    display: inline-block;
+    margin-left: 120px;
+}
+.list li:hover{
+    cursor: pointer; 
+    color: rgb(148, 211, 240);
+}
+header button{
+float: right;
+margin-top:15px;
+margin-right: 40px;
+border-style: solid;
+border-color: rgb(212, 212, 212);
+border-radius: 30px;
+}
+header button:hover{
+    cursor: pointer;
+background-color: rgb(23, 158, 221);
+}
+.home{
+color:rgb(148, 211, 240);
+}
+/*end-header*/  
+/* start div-1*/
+.div-1{
+    margin-top: -20px;
+   text-align:center ;
+    height: 500px;
+}
+.div-1 h2{
+    padding-top: 150PX;
+    padding-bottom: 20px;
+}
+.div-1 form {
+    display: inline-block;
+}
+.div-1 form input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style:none;
+}
+.div-1 button{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border-style: none;
+}
+.div-1 button:hover{
+    background-color: rgb(23, 158, 221);
+    border-style: none;
+} 
+
+.select .selc{
+  display: inline;
+  margin-top: 30px;
+}
+/* end div-1*/
+/*start div-2*/
+.logo{
+    background-color: rgb(226, 226, 226);
+    margin-top: -25px; 
+    height: 250px;
+}
+.logo h5{
+    text-align: center;
+    line-height: 100px;
+}
+.logo h6{
+    display: inline;
+    font-size: 20px;
+    text-shadow: 0px  20px 3px #c2c2c2  ;
+}
+.logo .manylogo{
+ display: flex;
+ justify-content: space-around;
+}
+/*end div-2*/
+/*start div-3*/
+.services h4{
+    color: rgb(148, 211, 240);;
+}
+.services #loream{
+    display: inline-flex;
+    text-align: center;
+    padding-top: 50px;
+    height: 400px;
+    justify-content: space-around;
+    
+}
+.services .firstDiv{
+ height: 300px;
+flex-basis: 25%; 
+background-color: rgb(226, 226, 226) ;
+ padding-top: 50px; 
+}
+.services .secDiv{
+   
+    height: 300px;
+    flex-basis: 25%; 
+    background-color: rgb(226, 226, 226) ;
+    padding-top: 50px; 
+}
+ .services .thirDiv{
+background-color: rgb(226, 226, 226) ;        
+        height: 300px;
+        flex-basis: 25%; 
+        padding-top: 50px; 
+        }
+        .services #loream p{
+            padding-top: 10px;
+            width: 80%;
+            text-align: center;
+            padding-left: 30px;
+        }           
+
+/*end div-3*/
+/* start div-4  */
+.hosting{
+    background-image: url(https://i1.wp.com/baytdz.com/wp-content/uploads/2020/03/d8a7d8acd985d984-20-d8b5d988d8b1d8a9-d985d986d8b8d8b1-d8b7d8a8d98ad8b9d98a-d8aed984d8a7d8a8d8a9-d8add988d984-d8a7d984d8b9_5e6c266e7e590.jpeg?w=960&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
+.hosting h3{
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;  
+}
+.pr{
+    text-align: center;  
+}
+.sale{
+    display: inline-flex;
+    width: 100%;
+  word-spacing: 10px;
+  height:750px;
+  
+}
+.sale .basic{
+    margin: 100px;
+    background-color:rgb(221, 221, 220);
+    padding-top: 20px;
+    border-radius: 2px;
+    width: 600px;
+    padding: 20px;
+}
+.cloud{
+    margin: 100px;
+    background-color: rgb(221, 221, 220);
+    padding-top: 20px;
+    border-radius: 2px;
+    width: 600px;
+    padding: 20px;
+}
+.advanced{
+    margin: 100px;
+    background-color: rgb(221, 221, 220);
+    padding-top: 20px;
+    border-radius: 2px;
+    width: 600px;
+    padding: 20px;
+}
+.basic h5
+,.cloud h5
+,.advanced h5{
+    text-align: center;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.sale .money{
+    width: 90%;
+    height: 90px;
+margin-left: 10px;
+}
+.sale .money p{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sale #left{
+    background-color: rgb(23, 158, 221);
+
+}
+.sale #center{
+    background-color: blue;
+}
+.sale #right{
+    background-color: rgb(23, 158, 221);
+}
+.sale .parg{
+    font-style: italic;
+    color: rgb(163, 161, 158);
+    padding-top: 20px;
+    text-align: center;
+}
+.sale .select{
+    width:180px;
+    margin: 0px;
+    padding-top: 30px;
+}
+.sale .select ul{
+    list-style:square;
+}
+.sale .select ul li{
+    padding-bottom: 15px;
+}
+.sale button{
+    margin-top: 20px;
+    background-color: rgb(23, 158, 221);
+    width: 120px;
+    height: 50px;
+   margin-left: 30px; 
+}
+.sale button:hover{
+    cursor: pointer;  
+}
+.sale .center{
+    background-color:blue ;
+}
+
+/* end div-4  */
+/* start div-5 */
+.quality{
+    padding-top: 500px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.quality h4{
+    color: rgb(23, 158, 221);
+}
+.quality h1{
+    text-shadow: 15px 15px 5px rgb(189, 189, 190);
+}
+/* end div-5 */
+/* start div-6*/
+.load .one
+,.load .two
+,.load .three
+,.load .four
+,.load .five
+,.load .six{
+border: solid rgb(189, 189, 190);
+display:inline-flex;
+border-radius: 20px;
+padding: 20px;
+margin: 30px;
+justify-content: space-between;
+}
+/* end div-6*/
+
+/*start div7*/
+.aboutUs{
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.aboutUs h5{
+    color:rgb(23, 158, 221) ;
+}
+.aboutUs p{
+    width: 50%;
+    padding-left: 330px;
+}
+.span span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(23, 158, 221);
+    margin-top: 40px;
+    margin-bottom: 10px;   
+}
+.span span:hover{
+    width: 15px;
+    background-color: blue;
+    cursor: pointer;
+}
+/*end div7*/
+/*start div8*/
+.usefull{
+    background-image: url(https://i1.wp.com/baytdz.com/wp-content/uploads/2020/03/d8a7d8acd985d984-20-d8b5d988d8b1d8a9-d985d986d8b8d8b1-d8b7d8a8d98ad8b9d98a-d8aed984d8a7d8a8d8a9-d8add988d984-d8a7d984d8b9_5e6c266e7e590.jpeg?w=960&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+.usefull .ABOUT{
+    flex-basis: 20%;
+}
+.usefull .plans{
+    flex-basis: 20%;
+   }
+   .usefull .links{
+    flex-basis: 20%;
+   }
+   .usefull .information{
+    flex-basis: 20%;
+   }
+   .information{
+       padding-bottom: 30px;
+   }
+  .link a{
+      color: rgb(202, 201, 201);
+      margin-bottom: 10px;
+      display: block;
+      text-decoration: none;
+  }
+  .usefull .ABOUT p{
+      color:rgb(202, 201, 201) ;
+  }
+/*end div8*/
+/*start footer*/
+.footer{
+    background-image: url(https://i1.wp.com/baytdz.com/wp-content/uploads/2020/03/d8a7d8acd985d984-20-d8b5d988d8b1d8a9-d985d986d8b8d8b1-d8b7d8a8d98ad8b9d98a-d8aed984d8a7d8a8d8a9-d8add988d984-d8a7d984d8b9_5e6c266e7e590.jpeg?w=960&ssl=1);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.copy{
+    padding: 30px;
+    text-align: center;
+}
+
+/*end footer*/
